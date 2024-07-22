@@ -53,7 +53,7 @@ fi
 # set packages
 BASIC_PACKAGES="arch-wiki-docs reflector pacman-contrib p7zip unzip unrar vim helix htop vifm fzf lynx networkmanager numlockx wget yt-dlp"
 
-DESKTOP="mesa xorg lightdm lightdm-slick-greeter pipewire pipewire-alsa pipewire-jack pipewire-pulse qtile alsa-utils brightnessctl alacritty thunar thunar-archive-plugin thunar-media-tags-plugin thunar-volman xarchiver ristretto vlc brasero firefox qbittorrent obs-studio mousepad gnome-multi-writer shutter xreader libreoffice-still hunspell-en_us hyphen-en lxappearance network-manager-applet nitrogen rofi picom pavucontrol breeze-gtk breeze-icons"
+DESKTOP="mesa xorg lightdm lightdm-slick-greeter pipewire pipewire-alsa pipewire-jack pipewire-pulse qtile alsa-utils brightnessctl alacritty thunar thunar-archive-plugin thunar-media-tags-plugin thunar-volman xarchiver ristretto vlc brasero firefox qbittorrent obs-studio mousepad gnome-multi-writer shutter xreader libreoffice-still hunspell-en_us hyphen-en lxappearance network-manager-applet rofi picom pavucontrol breeze-gtk breeze-icons"
 
 FONTS="noto-fonts noto-fonts-cjk noto-fonts-emoji noto-fonts-extra ttf-liberation ttf-nerd-fonts-symbols"
 
