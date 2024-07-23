@@ -2,7 +2,7 @@
 set -euo pipefail
 
 if [[ $EUID -ne 0 ]]; then
-  echo "run as root"
+  echo "run using sudo"
   exit 1
 fi
 
@@ -86,6 +86,9 @@ pacman -S $TO_INSTALL
 systemctl enable lightdm.service
 systemctl enable NetworkManager.service
 systemctl enable paccache.timer
+
+USERNAME=$(logname)
+usermod -aG disk,optical,storage,uucp,video $USERNAME
 
 if [ -d /usr/share/backgrounds ]; then
   echo "backgrounds directory exists"
