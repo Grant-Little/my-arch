@@ -15,7 +15,7 @@ A small Arch installation bash script I made so I wouldn't have to remember the 
 - the wallpapers I shamelessly ripped from wallhaven
 - lightdm and slick-greeter config
 - enables natural scrolling on trackpads and removes mouse acceleration on other input devices
-- seperate script to grab my dotfiles
+- seperate script to grab my [dotfiles](https://github.com/Grant-Little/dotfiles)
 
 ## Installation
 - boot into [arch-iso](https://archlinux.org/download/) live environment
