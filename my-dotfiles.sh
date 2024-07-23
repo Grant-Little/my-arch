@@ -12,7 +12,7 @@ git clone $DOTFILES_GIT
 if [ -d ~/.config/ ]; then
   echo ".config directory exists"
 else
-  echo "making .condig directory"
+  echo "making .config directory"
   mkdir ~/.config
 fi
 
